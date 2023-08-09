@@ -1,10 +1,10 @@
 @font-face {
   font-family: nf;
-  src: url("../src/assets/fonts/IRANSans.ttf");
+  src: url("assets/fonts/IRANSans.ttf");
 }
 @font-face {
   font-family: bf;
-  src: url("../src/assets/fonts/IRANSansBold.ttf");
+  src: url("assets/fonts/IRANSansBold.ttf");
 }
 
 * {
@@ -33,4 +33,12 @@ html {
 button {
     font-family: bf;
     cursor: pointer;
+}
+
+noscript {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

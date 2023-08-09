@@ -1,10 +1,11 @@
 import React from 'react';
-import style from "./App.module.css";
+import BottomNavigation from "./Components/BottomNavigation"
+import style from './App.module.css';
 
 function App() {
     return (
         <main>
-            <p>hello</p>
+            <BottomNavigation/>
         </main>
     );
 }
