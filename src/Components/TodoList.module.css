@@ -1,0 +1,20 @@
+img {
+    width: 300px;
+}
+p {
+    margin: 30px 0;
+    color: var(--pale-color);
+}
+button {
+    background-color: transparent;
+    border : 2px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 5px 25px;
+    width: auto;
+}
+.todoEmpty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
